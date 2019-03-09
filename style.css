@@ -2,6 +2,34 @@
 	background-color: grey;
 	border:2px solid black;
 }
+
 section{
 	padding: 2%;
 }
+
+#sky-logo{
+	width:10vw;
+	height: 7vw;
+}
+
+h1{
+	margin-left: 20vw;
+	margin-top: 2vw;
+}
+
+#sky-title{
+	display: inline-block;
+	align-self: center;
+	vertical-align: middle;
+	align-content: center;
+	width:86vw;
+	height: 7vw
+}
+
+.sky-right-label{
+	float: right;
+}
+/*
+.sky-slide-colour{
+	background-color:darkgrey;
+}*/
