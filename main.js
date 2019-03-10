@@ -109,10 +109,10 @@ function loaded (){
 	}
 
 	function getProgramFromFile(request){
-		newProgramList = []
-		xml = request.responseXML
-		console.log(xml)
-		var xmlPrograms = xml.getElementsByTagName("PROGRAM")
+		newProgramList = [];
+		var xml = request.responseXML;
+		console.log(xml);
+		var xmlPrograms = xml.getElementsByTagName("PROGRAM");
 	  xmlPrograms.forEach(function(p){
 	  	var obj = {title:"",img:"",mood:""}
 	  	obj.img = p.getElementsByTagName("IMAGE")[0].childNodes[0].nodeValue.toString()
