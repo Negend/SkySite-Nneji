@@ -106,19 +106,19 @@ function loaded (){
 	  	var xhttp = new XMLHttpRequest();
 		  xhttp.open("GET", file, true) 
 		  xhttp.send()
-		  if(xhttp.responsXML){
-		  	console.log(xhttp.responsXML)
-		  	getProgramFromFile(xhttp.responsXML)
+		  if(xhttp.responseXML){
+		  	console.log(xhttp.responseXML)
+		  	getProgramFromFile(xhttp.responseXML)
 		  }
 		  else{
 		  	xhttp.onreadystatechange = function() {
-		  	console.log(this.responsXML)
-		  	console.log(this.responsText)
-		  	console.log(this.respons)
-		  	console.log(this.responsJson)
+		  	console.log(this.responseXML)
+		  	console.log(this.responseText)
+		  	console.log(this.response)
+		  	console.log(this.responseJson)
 		  	console.log("xhttp.responsXML")
 			    if (this.status == 200) {			    	
-			    	getProgramFromFile(xhttp.responsXML);
+			    	getProgramFromFile(xhttp.responseXML);
 			    	updatePrograms()		
 			    }
 			  }
