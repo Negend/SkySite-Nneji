@@ -136,13 +136,14 @@ function loaded (){
 		xml;
 		console.log(xml);
 		var xmlPrograms = xml.getElementsByTagName("PROGRAM");
-	  xmlPrograms.forEach(function(p){
+		for (var x=0;x<xmlPrograms.length;x++){
+			var p=xmlPrograms[x]
 	  	var obj = {title:"",img:"",mood:""}
 	  	obj.img = p.getElementsByTagName("IMAGE")[0].childNodes[0].nodeValue.toString()
 	  	obj.mood = p.getElementsByTagName("MOOD")[0].childNodes[0].nodeValue.toString()
 	  	obj.title = p.getElementsByTagName("TITLE")[0].childNodes[0].nodeValue.toString()
 	  	newProgramList.push(obj)
-	  })
+	  }
 	  return newProgramList
 	}
 
