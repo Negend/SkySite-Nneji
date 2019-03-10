@@ -6,6 +6,10 @@ function loaded (){
 	updatePrograms()
 // when mood is submitted, event kicks off to change listings
 	$('#refresh-mood').click(function(){
+		if (programs.length == 0) {
+			alert("No Content. Please upload")
+			return
+		}
 		var moods = getMood()
 		console.log(moods)
 		var x = createNewProgramList(moods)
