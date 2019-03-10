@@ -7,7 +7,7 @@ function loaded (){
 // when mood is submitted, event kicks off to change listings
 	$('#refresh-mood').click(function(){
 		if (programs.length == 0) {
-			alert("No Content. Please upload")
+			alert("No Content to display. Please upload.")
 			return
 		}
 		var moods = getMood()
@@ -28,8 +28,7 @@ function loaded (){
 
 	$('#upload-sample').click(function(){
 		programs = []
-		programs = loadDoc("../Programs/sample.xml")
-		window.location.href ="../index.html"
+		programs = loadDoc("./Programs/sample.xml")
 		updatePrograms()		
 	})
 	
