@@ -112,13 +112,8 @@ function loaded (){
 		  }
 		  else{
 		  	xhttp.onreadystatechange = function() {
-		  	console.log(this.responseXML)
-		  	console.log(this.responseText)
-		  	console.log(this.response)
-		  	console.log(this.responseJson)
-		  	console.log("xhttp.responsXML")
-			    if (this.status == 200) {			    	
-			    	getProgramFromFile(xhttp.responseXML);
+			    if (this.readyState == 4 && this.status == 200) {			    	
+			    	getProgramFromFile(this.responseXML);
 			    	updatePrograms()		
 			    }
 			  }
