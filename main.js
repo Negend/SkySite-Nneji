@@ -109,7 +109,7 @@ function loaded (){
 		  xhttp.onreadystatechange = function() {
 		    if (this.status == 200) {
 		    	
-		    	getProgramFromFile(xhttp.responsXml);
+		    	getProgramFromFile(xhttp.responsXML);
 		    	updatePrograms()		
 		    }
 		  }  
