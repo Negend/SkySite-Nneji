@@ -111,7 +111,7 @@ function loaded (){
 		  	getProgramFromFile(xhttp.responsXML)
 		  }
 		  else{
-		  	xhttp.onreadystatechange() = function() {
+		  	xhttp.onreadystatechange = function() {
 			    if (this.status == 200) {			    	
 			    	getProgramFromFile(xhttp.responsXML);
 			    	updatePrograms()		
