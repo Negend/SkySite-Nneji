@@ -24,7 +24,7 @@ function loaded (){
 
 	$('#upload-sample').click(function(){
 		programs = []
-		programs = getProgramFromFile("../Programs/sample.xml")
+		programs = loadDoc("../Programs/sample.xml")
 		window.location.href ="./index.html"
 	})
 	
@@ -91,7 +91,7 @@ function loaded (){
 	}
 
 	function updatePrograms(){		
-		// getProgramFromFile(file)
+		// loadDoc(file)
 		if (programs.count != 0) {
 			$("#refresh-mood").click()
 		}
@@ -100,14 +100,17 @@ function loaded (){
 
 	function loadDoc(file) {
 	  var xhttp = new XMLHttpRequest();
-	  xhttp.open("GET", file, true)
+	  xhttp.open("GET", file, true)  
+	  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    getProgramFromFile(this,file);
+    }
 	  xhttp.send()
-	  return xhttp.responseXML 
 	}
 
-	function getProgramFromFile(file){
+	function getProgramFromFile(request){
 		newProgramList = []
-		xml = loadDoc(file)
+		xml = request.responseXML
 		var xmlPrograms = xml.getElementsByTagName("PROGRAM")
 	  xmlPrograms.forEach(function(p){
 	  	var obj = {title:"",img:"",mood:""}
@@ -116,7 +119,6 @@ function loaded (){
 	  	obj.title = p.getElementsByTagName("TITLE")[0].childNodes[0].nodeValue.toString()
 	  	newProgramList.push(obj)
 	  })
-
 	  return newProgramList
 	}
 
