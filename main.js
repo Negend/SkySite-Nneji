@@ -103,7 +103,7 @@ function loaded (){
 	  xhttp.open("GET", file, true)  
 	  xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-    getProgramFromFile(this,file);
+    getProgramFromFile(this);
     }
 	  xhttp.send()
 	}
@@ -111,6 +111,7 @@ function loaded (){
 	function getProgramFromFile(request){
 		newProgramList = []
 		xml = request.responseXML
+		console.log(xml)
 		var xmlPrograms = xml.getElementsByTagName("PROGRAM")
 	  xmlPrograms.forEach(function(p){
 	  	var obj = {title:"",img:"",mood:""}
