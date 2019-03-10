@@ -21,72 +21,71 @@
     <nav class="nav nav-pills nav-fill navbar-dark bg-dark">
       <a class="nav-item nav-link active" href="./index.html">Home</a>
       <a class="nav-item nav-link" href="./pages/upload.html">Upload</a>
-      <a class="nav-item nav-link" href="./pages/all.html">Full List</a>
+      <a class="nav-item nav-link" href="./Programs/sample.xml">Full List</a>
     </nav>
 
     <section class="sky-placeholder">
       <div>
-         <label for="programme1">Happy</label>
-        <label for="programme1" class="sky-right-label">Sad</label>
-        <input type="range" class="custom-range" min="1" max="3" id="programme1"> 
+        <label for="program1">Happy</label>
+        <label for="program1" class="sky-right-label">Sad</label>
+        <input type="range" class="custom-range mood" min="1" max="3" id="mood1"> 
       </div>
       <div class="sky-slide-colour">
-        <label for="programme2">Agitated</label>
-      <label for="programme2" class="sky-right-label">Calm</label>
-      <input type="range" class="custom-range" min="1" max="3" id="programme2">
+        <label for="program2">Agitated</label>
+        <label for="program2" class="sky-right-label">Calm</label>
+        <input type="range" class="custom-range mood" min="1" max="3" id="mood2">
       </div>
       <div>
-        <label for="programme3">Awake</label>
-      <label for="programme3" class="sky-right-label">Tired</label>
-      <input type="range" class="custom-range" min="1" max="3" id="programme3">
+        <label for="program3">Awake</label>
+        <label for="program3" class="sky-right-label">Tired</label>
+        <input type="range" class="custom-range mood" min="1" max="3" id="mood3">
       </div>
       <div class="sky-slide-colour">
-        <label for="programme4">Fearless</label>
-      <label for="programme4" class="sky-right-label">Scared</label>
-      <input type="range" class="custom-range" min="1" max="3" id="programme4">
+        <label for="program4">Fearless</label>
+        <label for="program4" class="sky-right-label">Scared</label>
+        <input type="range" class="custom-range mood" min="1" max="3" id="mood4">
       </div>
-      
-      
-      
-      
-    </section>
+      <button id ="refresh-mood" type="button" class="btn btn-primary">
+        <p>Refresh Programs</p>
+      </button>
+     </section>
     <section class="sky-placeholder">
       <div class="card-deck">
         <div class="card">
-          <img src="./images/no_content.png" class="card-img-top" alt="No Content">
+          <img src="./images/no_content.png" class="card-img-top" alt="No Content" id="program1-img">
           <div class="card-body">
-            <h5 class="card-title">No content</h5>
+            <h5 id="program1-title" class="card-title">No content</h5>
           </div>
         </div>
         <div class="card">
-          <img src="./images/no_content.png" class="card-img-top" alt="No Content">
+          <img src="./images/no_content.png" class="card-img-top" alt="No Content" id="program2-img">
           <div class="card-body">
-            <h5 class="card-title">No content</h5>
+            <h5 id="program2-title" class="card-title">No content</h5>
           </div>
         </div>
         <div class="card">
-          <img src="./images/no_content.png" class="card-img-top" alt="No Content">
+          <img src="./images/no_content.png" class="card-img-top" alt="No Content" id="program3-img">
           <div class="card-body">
-            <h5 class="card-title">No content</h5>
+            <h5 id="program3-title" class="card-title">No content</h5>
           </div>
         </div>
         <div class="card">
-          <img src="./images/no_content.png" class="card-img-top" alt="No Content">
+          <img src="./images/no_content.png" class="card-img-top" alt="No Content" id="program4-img">
           <div class="card-body">
-            <h5 class="card-title">No content</h5>
+            <h5 id="program4-title" class="card-title">No content</h5>
           </div>
         </div>
         <div class="card">
-          <img src="./images/no_content.png" class="card-img-top" alt="No Content">
+          <img src="./images/no_content.png" class="card-img-top" alt="No Content" id="program5-img">
           <div class="card-body">
-            <h5 class="card-title">No content</h5>
+            <h5 id="program5-title" class="card-title">No content</h5>
           </div>
         </div>
       </div>
     </section>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-	<script type="text/javascript" src='/main.js'></script>
+	<script type="text/javascript" src='./main.js'></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

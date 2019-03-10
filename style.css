@@ -2,10 +2,17 @@
 	background-color: grey;
 	border:2px solid black;
 }
-
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 section{
 	padding: 2%;
-	margin: 2vw;
+	margin: 1.5vw;
 }
 
 #sky-logo{
@@ -29,6 +36,9 @@ h1{
 
 .sky-right-label{
 	float: right;
+}
+#recommend{
+	bor
 }
 /*
 .sky-slide-colour{
