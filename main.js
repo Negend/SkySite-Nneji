@@ -25,7 +25,8 @@ function loaded (){
 	$('#upload-sample').click(function(){
 		programs = []
 		programs = loadDoc("../Programs/sample.xml")
-		window.location.href ="./index.html"
+		window.location.href ="../index.html"
+		updatePrograms()		
 	})
 	
 
@@ -95,7 +96,6 @@ function loaded (){
 		if (programs.count != 0) {
 			$("#refresh-mood").click()
 		}
-
 	}
 
 	function loadDoc(file) {
