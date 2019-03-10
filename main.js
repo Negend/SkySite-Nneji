@@ -96,7 +96,7 @@ function loaded (){
 
 	function updatePrograms(){		
 		// loadDoc(file)
-		if (programs.count != 0) {
+		if (programs.length != 0) {
 			$("#refresh-mood").click()
 		}
 	}
