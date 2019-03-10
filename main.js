@@ -110,7 +110,6 @@ function loaded (){
 		    if (this.status == 200) {
 		    	
 		    	getProgramFromFile(xhttp.responsXml);
-		    	console.log("ready")
 		    	updatePrograms()		
 		    }
 		  }  
@@ -124,7 +123,7 @@ function loaded (){
 
 	function getProgramFromFile(xml){
 		newProgramList = [];
-		var xml;
+		xml;
 		console.log(xml);
 		var xmlPrograms = xml.getElementsByTagName("PROGRAM");
 	  xmlPrograms.forEach(function(p){
