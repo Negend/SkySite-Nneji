@@ -29,7 +29,6 @@ function loaded (){
 	$('#upload-sample').click(function(){
 		programs = []
 		programs = loadDoc("./Programs/sample.xml")
-		updatePrograms()		
 	})
 	
 
@@ -108,10 +107,11 @@ function loaded (){
 		  xhttp.open("GET", file, true) 
 		  xhttp.send()
 		  xhttp.onreadystatechange = function() {
-		    if (this.readyState == 4 && this.status == 200) {
+		    if (this.status == 200) {
 		    	
 		    	getProgramFromFile(xhttp.responsXml);
 		    	console.log("ready")
+		    	updatePrograms()		
 		    }
 		  }  
 	  }
