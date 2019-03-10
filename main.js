@@ -102,19 +102,29 @@ function loaded (){
 	}
 
 	function loadDoc(file) {
-	  var xhttp = new XMLHttpRequest();
-	  xhttp.open("GET", file, true)  
-	  xhttp.onreadystatechange = function() {
-	    if (this.readyState == 4 && this.status == 200) {
-	    	getProgramFromFile(this);
-	    }
-	  }  
-	  xhttp.send()
+	  
+	  if(typeof window.DOMParser != "undefined") {
+	  	var xhttp = new XMLHttpRequest();
+		  xhttp.open("GET", file, true) 
+		  xhttp.send()
+		  xhttp.onreadystatechange = function() {
+		    if (this.readyState == 4 && this.status == 200) {
+		    	
+		    	getProgramFromFile(xhttp.responsXml);
+		    	console.log("ready")
+		    }
+		  }  
+	  }
+	  else{
+	  	xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+ 	    xmlDoc.async="false";
+	    getProgramFromFile(xmlDoc.load(file));
+	  }
 	}
 
-	function getProgramFromFile(request){
+	function getProgramFromFile(xml){
 		newProgramList = [];
-		var xml = request.responseXML;
+		var xml;
 		console.log(xml);
 		var xmlPrograms = xml.getElementsByTagName("PROGRAM");
 	  xmlPrograms.forEach(function(p){
