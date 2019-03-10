@@ -112,6 +112,9 @@ function loaded (){
 		  }
 		  else{
 		  	console.log(xhttp.responsXML)
+		  	console.log(xhttp.responsText)
+		  	console.log(xhttp.respons)
+		  	console.log(xhttp.responsJson)
 		  	console.log("xhttp.responsXML")
 		  	xhttp.onreadystatechange = function() {
 			    if (this.status == 200) {			    	
