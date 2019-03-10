@@ -106,12 +106,17 @@ function loaded (){
 	  	var xhttp = new XMLHttpRequest();
 		  xhttp.open("GET", file, true) 
 		  xhttp.send()
-		  xhttp.onreadystatechange = function() {
-		    if (this.status == 200) {
-		    	
-		    	getProgramFromFile(xhttp.responsXML);
-		    	updatePrograms()		
-		    }
+		  if(xhttp.responsXML){
+		  	console.log(xhttp.responsXML)
+		  	getProgramFromFile(xhttp.responsXML)
+		  }
+		  else{
+		  	xhttp.onreadystatechange() = function() {
+			    if (this.status == 200) {			    	
+			    	getProgramFromFile(xhttp.responsXML);
+			    	updatePrograms()		
+			    }
+			  }
 		  }  
 	  }
 	  else{
