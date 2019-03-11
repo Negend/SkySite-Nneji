@@ -4,7 +4,6 @@ function loaded (){
 	var programs = []
 	// var programs = <%= @programs %>
 
-	updatePrograms()
 // when mood is submitted, event kicks off to change listings
 	$('#refresh-mood').click(function(){
 		if (programs.length == 0) {
@@ -20,12 +19,14 @@ function loaded (){
 		$('#program4-title').html(programsDisplayed[3].title)  
 		$('#program5-title').html(programsDisplayed[4].title)  
 		$('#program1-img').attr("src",programsDisplayed[0].img) 
-		console.log(programsDisplayed[0].img) 
 		$('#program2-img').attr("src",programsDisplayed[1].img)  
 		$('#program3-img').attr("src",programsDisplayed[2].img)  
 		$('#program4-img').attr("src",programsDisplayed[3].img)  
 		$('#program5-img').attr("src",programsDisplayed[4].img)	  
 	})
+
+	updatePrograms()
+
 
 	$('#upload-sample').click(function(){
 		programs = []
@@ -132,7 +133,7 @@ function loaded (){
 	  return newProgramList
 	}
  
-  $("#form").submit(function(e){
-  	e.preventDefault();
-  })
+  // $("#form").submit(function(e){
+  // 	e.preventDefault();
+  // })
 }
