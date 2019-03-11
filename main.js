@@ -101,29 +101,22 @@ function loaded (){
 	}
 
 	function loadDoc(file) {
-	  
-	  if(typeof window.DOMParser != "undefined") {
-	  	var xhttp = new XMLHttpRequest();
-		  xhttp.open("GET", file, true) 
-		  xhttp.send()
-		  if(xhttp.responseXML){
-		  	console.log(xhttp.responseXML)
-		  	getProgramFromFile(xhttp.responseXML)
-		  }
-		  else{
-		  	xhttp.onreadystatechange = function() {
-			    if (this.readyState == 4 && this.status == 200) {			    	
-			    	getProgramFromFile(this.responseXML);
-			    	updatePrograms()		
-			    }
-			  }
-		  }  
+  	var xhttp = new XMLHttpRequest();
+	  xhttp.open("GET", file, true) 
+	  xhttp.send()
+	  if(xhttp.responseXML){
+	  	console.log(xhttp.responseXML)
+	  	programs = getProgramFromFile(xhttp.responseXML)
 	  }
 	  else{
-	  	xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
- 	    xmlDoc.async="false";
-	    getProgramFromFile(xmlDoc.load(file));
-	  }
+	  	xhttp.onreadystatechange = function() {
+		    if (this.readyState == 4 && this.status == 200) {			    	
+		    	programs = getProgramFromFile(this.responseXML);
+		    	updatePrograms()		
+		    }
+		  }
+	  }  
+	  
 	}
 
 	function getProgramFromFile(xml){
