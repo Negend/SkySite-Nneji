@@ -13,7 +13,7 @@ class SkyController < Sinatra::Base
     mood = []
     programs.updateDisplay mood
     @programs = programs.programDisplayed
-    if@programs.length ==0
+    if @programs.length == 0
       program=Program.new "No Content","/images/no_content.png","mood"
       @programs = [
         program,
@@ -23,6 +23,7 @@ class SkyController < Sinatra::Base
         program
       ]
     end
+
     @home = true
     erb :'pages/index'  
   end
@@ -66,7 +67,4 @@ class SkyController < Sinatra::Base
     end
     redirect '/'
   end
-  
-
-
 end
