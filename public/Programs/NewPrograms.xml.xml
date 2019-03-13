@@ -2,314 +2,243 @@
 	<TITLE>SAMPLE XML UPLOAD FILE. PRESS BACK BUTTON TO RETURN TO SITE</TITLE>
 	<PROGRAMS>
 		<PROGRAM>
-			<TITLE>HAPPY - MOVIE 1 Part 1</TITLE>
-			<IMAGE>./images/program/1.jpg</IMAGE>
+			<TITLE>Rainbow Life Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/wxZVenBE9msRq/giphy.gif</IMAGE>
 			<MOOD>HAPPY</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>HAPPY - MOVIE 2 Part 1</TITLE>
-			<IMAGE>./images/program/2.jpg</IMAGE>
+			<TITLE>Bedtime Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/h7DyKGq716JMI/giphy.gif</IMAGE>
+			<MOOD>TIRED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Morning Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/xT1XGUxKBHHl6X3lxm/giphy.gif</IMAGE>
+			<MOOD>AWAKE</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Focus Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/lF3F0U1IkiqFW/giphy.gif</IMAGE>
+			<MOOD>AGITATED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Safety First Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/bEVKYB487Lqxy/giphy.gif</IMAGE>
+			<MOOD>SCARED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Scary MOVIE Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/hfZ9oWRkkZ9YY/giphy.gif</IMAGE>
+			<MOOD>FEARLESS</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Last Smile Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/IKqNmNkNlMvyo/giphy.gif</IMAGE>
+			<MOOD>SAD</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Yoga Part 1</TITLE>
+			<IMAGE>https://media.giphy.com/media/3o6ZsYMuMkxBNiy7pC/giphy.gif</IMAGE>
+			<MOOD>CALM</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Rainbow Life Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/wxZVenBE9msRq/giphy.gif</IMAGE>
 			<MOOD>HAPPY</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>HAPPY - MOVIE 3 Part 1</TITLE>
-			<IMAGE>./images/program/3.jpg</IMAGE>
+			<TITLE>Bedtime Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/h7DyKGq716JMI/giphy.gif</IMAGE>
+			<MOOD>TIRED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Morning Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/xT1XGUxKBHHl6X3lxm/giphy.gif</IMAGE>
+			<MOOD>AWAKE</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Focus Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/lF3F0U1IkiqFW/giphy.gif</IMAGE>
+			<MOOD>AGITATED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Safety First Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/bEVKYB487Lqxy/giphy.gif</IMAGE>
+			<MOOD>SCARED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Scary MOVIE Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/hfZ9oWRkkZ9YY/giphy.gif</IMAGE>
+			<MOOD>FEARLESS</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Last Smile Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/IKqNmNkNlMvyo/giphy.gif</IMAGE>
+			<MOOD>SAD</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Yoga Part 2</TITLE>
+			<IMAGE>https://media.giphy.com/media/3o6ZsYMuMkxBNiy7pC/giphy.gif</IMAGE>
+			<MOOD>CALM</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Rainbow Life Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/wxZVenBE9msRq/giphy.gif</IMAGE>
 			<MOOD>HAPPY</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 1</TITLE>
-			<IMAGE>./images/program/4.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 1</TITLE>
-			<IMAGE>./images/program/5.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 1</TITLE>
-			<IMAGE>./images/program/6.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 1</TITLE>
-			<IMAGE>./images/program/7.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AGITATED MOVIEle 8 Part 1</TITLE>
-			<IMAGE>./images/program/8.jpg</IMAGE>
-			<MOOD>AGITATED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AGITATED MOVIEle 9 Part 1</TITLE>
-			<IMAGE>./images/program/9.jpg</IMAGE>
-			<MOOD>AGITATED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AGITATED MOVIEle 10 Part 1</TITLE>
-			<IMAGE>./images/program/10.jpg</IMAGE>
-			<MOOD>AGITATED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 11 Part 1</TITLE>
-			<IMAGE>./images/program/11.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 12 Part 1</TITLE>
-			<IMAGE>./images/program/12.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 13 Part 1</TITLE>
-			<IMAGE>./images/program/13.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 14 Part 1</TITLE>
-			<IMAGE>./images/program/14.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 15 Part 1</TITLE>
-			<IMAGE>./images/program/15.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 16 Part 1</TITLE>
-			<IMAGE>./images/program/16.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 17 Part 1</TITLE>
-			<IMAGE>./images/program/17.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 18 Part 1</TITLE>
-			<IMAGE>./images/program/18.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SCARED MOVIEle 19 Part 1</TITLE>
-			<IMAGE>./images/program/19.jpg</IMAGE>
-			<MOOD>SCARED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SCARED MOVIEle 20 Part 1</TITLE>
-			<IMAGE>./images/program/20.jpg</IMAGE>
-			<MOOD>SCARED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SCARED MOVIEle 21 Part 1</TITLE>
-			<IMAGE>./images/program/21.jpg</IMAGE>
-			<MOOD>SCARED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>ANGRY - MOVIE 22 Part 1</TITLE>
-			<IMAGE>./images/program/22.jpg</IMAGE>
-			<MOOD>ANGRY</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>ANGRY - MOVIE 23 Part 1</TITLE>
-			<IMAGE>./images/program/23.jpg</IMAGE>
-			<MOOD>ANGRY</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>ANGRY - MOVIE 24 Part 1</TITLE>
-			<IMAGE>./images/program/24.jpg</IMAGE>
-			<MOOD>ANGRY</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 25 Part 1</TITLE>
-			<IMAGE>./images/program/25.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 26 Part 1</TITLE>
-			<IMAGE>./images/program/26.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 27 Part 1</TITLE>
-			<IMAGE>./images/program/27.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 28 Part 1</TITLE>
-			<IMAGE>./images/program/28.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>TIRED - MOVIE 29 Part 1</TITLE>
-			<IMAGE>./images/program/29.jpg</IMAGE>
+			<TITLE>Bedtime Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/h7DyKGq716JMI/giphy.gif</IMAGE>
 			<MOOD>TIRED</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>TIRED - MOVIE 30 Part 1</TITLE>
-			<IMAGE>./images/program/30.jpg</IMAGE>
-			<MOOD>TIRED</MOOD>
+			<TITLE>The Morning Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/xT1XGUxKBHHl6X3lxm/giphy.gif</IMAGE>
+			<MOOD>AWAKE</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>TIRED - MOVIE 31 Part 1</TITLE>
-			<IMAGE>./images/program/31.jpg</IMAGE>
-			<MOOD>TIRED</MOOD>
+			<TITLE>Focus Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/lF3F0U1IkiqFW/giphy.gif</IMAGE>
+			<MOOD>AGITATED</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>HAPPY - MOVIE 1 Part 2</TITLE>
-			<IMAGE>./images/program/1.jpg</IMAGE>
+			<TITLE>Safety First Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/bEVKYB487Lqxy/giphy.gif</IMAGE>
+			<MOOD>SCARED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Scary MOVIE Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/hfZ9oWRkkZ9YY/giphy.gif</IMAGE>
+			<MOOD>FEARLESS</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Last Smile Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/IKqNmNkNlMvyo/giphy.gif</IMAGE>
+			<MOOD>SAD</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Yoga Part 3</TITLE>
+			<IMAGE>https://media.giphy.com/media/3o6ZsYMuMkxBNiy7pC/giphy.gif</IMAGE>
+			<MOOD>CALM</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Rainbow Life Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/wxZVenBE9msRq/giphy.gif</IMAGE>
 			<MOOD>HAPPY</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>HAPPY - MOVIE 2 Part 2</TITLE>
-			<IMAGE>./images/program/2.jpg</IMAGE>
+			<TITLE>Rainbow Life Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/wxZVenBE9msRq/giphy.gif</IMAGE>
 			<MOOD>HAPPY</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>HAPPY - MOVIE 3 Part 2</TITLE>
-			<IMAGE>./images/program/3.jpg</IMAGE>
+			<TITLE>Rainbow Life Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/wxZVenBE9msRq/giphy.gif</IMAGE>
 			<MOOD>HAPPY</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 2</TITLE>
-			<IMAGE>./images/program/4.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 2</TITLE>
-			<IMAGE>./images/program/5.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 2</TITLE>
-			<IMAGE>./images/program/6.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SAD - Title MOVIEt 2</TITLE>
-			<IMAGE>./images/program/7.jpg</IMAGE>
-			<MOOD>SAD</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AGITATED MOVIEle 8 Part 2</TITLE>
-			<IMAGE>./images/program/8.jpg</IMAGE>
-			<MOOD>AGITATED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AGITATED MOVIEle 9 Part 2</TITLE>
-			<IMAGE>./images/program/9.jpg</IMAGE>
-			<MOOD>AGITATED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AGITATED MOVIEle 10 Part 2</TITLE>
-			<IMAGE>./images/program/10.jpg</IMAGE>
-			<MOOD>AGITATED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 11 Part 2</TITLE>
-			<IMAGE>./images/program/11.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 12 Part 2</TITLE>
-			<IMAGE>./images/program/12.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 13 Part 2</TITLE>
-			<IMAGE>./images/program/13.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>AWAKE - MOVIE 14 Part 2</TITLE>
-			<IMAGE>./images/program/14.jpg</IMAGE>
-			<MOOD>AWAKE</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 15 Part 2</TITLE>
-			<IMAGE>./images/program/15.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 16 Part 2</TITLE>
-			<IMAGE>./images/program/16.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 17 Part 2</TITLE>
-			<IMAGE>./images/program/17.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>FEARLESS MOVIEle 18 Part 2</TITLE>
-			<IMAGE>./images/program/18.jpg</IMAGE>
-			<MOOD>FEARLESS</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SCARED MOVIEle 19 Part 2</TITLE>
-			<IMAGE>./images/program/19.jpg</IMAGE>
-			<MOOD>SCARED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SCARED MOVIEle 20 Part 2</TITLE>
-			<IMAGE>./images/program/20.jpg</IMAGE>
-			<MOOD>SCARED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>SCARED MOVIEle 21 Part 2</TITLE>
-			<IMAGE>./images/program/21.jpg</IMAGE>
-			<MOOD>SCARED</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>ANGRY - MOVIE 22 Part 2</TITLE>
-			<IMAGE>./images/program/22.jpg</IMAGE>
-			<MOOD>ANGRY</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>ANGRY - MOVIE 23 Part 2</TITLE>
-			<IMAGE>./images/program/23.jpg</IMAGE>
-			<MOOD>ANGRY</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>ANGRY - MOVIE 24 Part 2</TITLE>
-			<IMAGE>./images/program/24.jpg</IMAGE>
-			<MOOD>ANGRY</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 25 Part 2</TITLE>
-			<IMAGE>./images/program/25.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 26 Part 2</TITLE>
-			<IMAGE>./images/program/26.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 27 Part 2</TITLE>
-			<IMAGE>./images/program/27.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>CALM - MOVIE 28 Part 2</TITLE>
-			<IMAGE>./images/program/28.jpg</IMAGE>
-			<MOOD>CALM</MOOD>
-		</PROGRAM>
-		<PROGRAM>
-			<TITLE>TIRED - MOVIE 29 Part 2</TITLE>
-			<IMAGE>./images/program/29.jpg</IMAGE>
+			<TITLE>Bedtime Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/h7DyKGq716JMI/giphy.gif</IMAGE>
 			<MOOD>TIRED</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>TIRED - MOVIE 30 Part 2</TITLE>
-			<IMAGE>./images/program/30.jpg</IMAGE>
+			<TITLE>The Morning Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/xT1XGUxKBHHl6X3lxm/giphy.gif</IMAGE>
+			<MOOD>AWAKE</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Focus Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/lF3F0U1IkiqFW/giphy.gif</IMAGE>
+			<MOOD>AGITATED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Safety First Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/bEVKYB487Lqxy/giphy.gif</IMAGE>
+			<MOOD>SCARED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Scary MOVIE Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/hfZ9oWRkkZ9YY/giphy.gif</IMAGE>
+			<MOOD>FEARLESS</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Last Smile Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/IKqNmNkNlMvyo/giphy.gif</IMAGE>
+			<MOOD>SAD</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Yoga Part 4</TITLE>
+			<IMAGE>https://media.giphy.com/media/3o6ZsYMuMkxBNiy7pC/giphy.gif</IMAGE>
+			<MOOD>CALM</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Bedtime Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/h7DyKGq716JMI/giphy.gif</IMAGE>
 			<MOOD>TIRED</MOOD>
 		</PROGRAM>
 		<PROGRAM>
-			<TITLE>TIRED - MOVIE 31 Part 2</TITLE>
-			<IMAGE>./images/program/31.jpg</IMAGE>
+			<TITLE>The Morning Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/xT1XGUxKBHHl6X3lxm/giphy.gif</IMAGE>
+			<MOOD>AWAKE</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Focus Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/lF3F0U1IkiqFW/giphy.gif</IMAGE>
+			<MOOD>AGITATED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Safety First Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/bEVKYB487Lqxy/giphy.gif</IMAGE>
+			<MOOD>SCARED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Scary MOVIE Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/hfZ9oWRkkZ9YY/giphy.gif</IMAGE>
+			<MOOD>FEARLESS</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Last Smile Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/IKqNmNkNlMvyo/giphy.gif</IMAGE>
+			<MOOD>SAD</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Yoga Part 5</TITLE>
+			<IMAGE>https://media.giphy.com/media/3o6ZsYMuMkxBNiy7pC/giphy.gif</IMAGE>
+			<MOOD>CALM</MOOD>
+		<PROGRAM>
+			<TITLE>Bedtime Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/h7DyKGq716JMI/giphy.gif</IMAGE>
 			<MOOD>TIRED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Morning Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/xT1XGUxKBHHl6X3lxm/giphy.gif</IMAGE>
+			<MOOD>AWAKE</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Focus Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/lF3F0U1IkiqFW/giphy.gif</IMAGE>
+			<MOOD>AGITATED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Safety First Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/bEVKYB487Lqxy/giphy.gif</IMAGE>
+			<MOOD>SCARED</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Scary MOVIE Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/hfZ9oWRkkZ9YY/giphy.gif</IMAGE>
+			<MOOD>FEARLESS</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>The Last Smile Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/IKqNmNkNlMvyo/giphy.gif</IMAGE>
+			<MOOD>SAD</MOOD>
+		</PROGRAM>
+		<PROGRAM>
+			<TITLE>Yoga Part x</TITLE>
+			<IMAGE>https://media.giphy.com/media/3o6ZsYMuMkxBNiy7pC/giphy.gif</IMAGE>
+			<MOOD>CALM</MOOD>
 		</PROGRAM>
 	</PROGRAMS>
 </FULLLIST>	

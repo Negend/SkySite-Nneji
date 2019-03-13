@@ -1,34 +1,37 @@
 
     <section class="sky-placeholder">
-      <div>
-        <label for="program1">Happy</label>
-        <label for="program1" class="sky-right-label">Sad</label>
-        <input type="range" class="custom-range mood" min="1" max="3" id="mood1"> 
-      </div>
-      <div class="sky-slide-colour">
-        <label for="program2">Agitated</label>
-        <label for="program2" class="sky-right-label">Calm</label>
-        <input type="range" class="custom-range mood" min="1" max="3" id="mood2">
-      </div>
-      <div>
-        <label for="program3">Awake</label>
-        <label for="program3" class="sky-right-label">Tired</label>
-        <input type="range" class="custom-range mood" min="1" max="3" id="mood3">
-      </div>
-      <div class="sky-slide-colour">
-        <label for="program4">Fearless</label>
-        <label for="program4" class="sky-right-label">Scared</label>
-        <input type="range" class="custom-range mood" min="1" max="3" id="mood4">
-      </div>
-      <button id ="refresh-mood" type="button" class="btn btn-primary">
-        <p>Refresh Programs</p>
-      </button>
-      <button id ="upload-sample" type="button" class="btn btn-primary">
-        <p>Load a Sample</p>
-      </button>
+      <form id='form' method ='POST' action = '/'>
+        <div>
+          <label for="program1">Happy</label>
+          <label for="program1" class="sky-right-label">Sad</label>
+          <input type="range" name='mood1' class="custom-range mood" min="1" max="3" id="mood1"> 
+        </div>
+        <div class="sky-slide-colour">
+          <label for="program2">Agitated</label>
+          <label for="program2" class="sky-right-label">Calm</label>
+          <input type="range" name='mood2' class="custom-range mood" min="1" max="3" id="mood2">
+        </div>
+        <div>
+          <label for="program3">Awake</label>
+          <label for="program3" class="sky-right-label">Tired</label>
+          <input type="range" name='mood3' class="custom-range mood" min="1" max="3" id="mood3">
+        </div>
+        <div class="sky-slide-colour">
+          <label for="program4">Fearless</label>
+          <label for="program4" class="sky-right-label">Scared</label>
+          <input type="range" name='mood4' class="custom-range mood" min="1" max="3" id="mood4">
+        </div>
+        <button id ="refresh-mood" type="submit" class="btn btn-primary">
+          <p>Refresh Programs</p>
+        </button>
+        <button id ="upload-sample" type="button" class="btn btn-primary">
+          <p>Load a Sample</p>
+        </button>
+      </form>
      </section>
+
     <section class="sky-placeholder">
-      <div class="card-deck">
+   <!--    <div class="card-deck">
         <div class="card">
           <img src="./images/no_content.png" class="card-img-top" alt="No Content" id="program1-img">
           <div class="card-body">
@@ -59,6 +62,6 @@
             <h5 id="program5-title" class="card-title">No content</h5>
           </div>
         </div>
-      </div> 
+      </div>  -->
+    <%= erb(:'partials/show', :layout => false)%> 
     </section>
-    <!-- <%= erb(:'partials/show', :layout => false)%> -->
