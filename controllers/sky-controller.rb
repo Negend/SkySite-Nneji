@@ -23,34 +23,28 @@ class SkyController < Sinatra::Base
         program
       ]
     end
-
     @home = true
     erb :'pages/index'  
   end
 
-	post '/' do    
-      mood = Programs.getMood params[:mood1],params[:mood2],params[:mood3],params[:mood4]
-      puts params[:mood1]
-      programs.updateDisplay mood
-      @programs = programs.programDisplayed
-    if@programs.length ==0
+	post '/' do  
+    mood = Programs.getMood params[:mood1],params[:mood2],params[:mood3],params[:mood4]
+    programs.updateDisplay mood
+    @programs = programs.programDisplayed
+    if @programs.length < 5
       program=Program.new "No Content","/images/no_content.png","mood"
-      @programs = [
-        program,
-        program,
-        program,
-        program,
-        program
-      ]
+      for x in 0...(5-@programs.length)
+        @programs.push program
+      end
     end
-    erb :'pages/index'  
+    erb :'partials/show', :layout => false
 	end
 
-  get '/pages/upload'  do     
+  get '/upload'  do     
     erb :'pages/upload' 
   end  
   
-  get '/Programs/sample'  do     
+  get '/programs'  do     
     redirect '/Programs/program-list.xml' 
   end  
   

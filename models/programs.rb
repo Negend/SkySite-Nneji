@@ -15,9 +15,8 @@ class Programs
 		for x in 0...chosenMoods.length 
 			for p in 0...@list.length 
 				if @list[p].mood == chosenMoods[x]
-					puts chosenMoods[x]
-					puts @list[p]
 					moodprograms.push @list[p]
+				else 
 				end
 			end
 		end
